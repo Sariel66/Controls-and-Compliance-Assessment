@@ -78,3 +78,15 @@ Does Botium Toys currenly have this control in place?
 | No | Intrusion Detection System (IDS) | This would help IT team to identiy possible intrusions by the threat actors. | 
 | Yes | CCTV | It is working and functioning. |
 | Yes | Fire detection | physical location has a functioning fire detection and prevention system. However, the team should maintain it and establish a plan on how to use it. |
+
+
+## Compliance Checklist
+Does Botium Toys currenly adhrere to this compliance best practice? 
+
+* Payment Card Industry Data Security Standard (PCI DSS)
+
+| Yes/ No / ? | Best Practice | Explanation |
+| :---        |    :---:   | :---     |
+| No | Only Authorized users she be able to access to customer's credit card. | at this time all employees in the company have access to the information which is way too many people and has a higher possibility of information getting leaked accidently or intentionally.  |
+| No | Credit card information should stored in a secure location. | It is currenly not encrypted and which violates the law and regulations as well as makes the system way less secure and easier for threat actors to steal the information. |
+| No | Encryption is secured. | No, there is no encryption in place this needs to be changed when dealing with highly sensitive information. | 
