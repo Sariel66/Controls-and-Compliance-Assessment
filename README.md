@@ -83,10 +83,43 @@ Does Botium Toys currenly have this control in place?
 ## Compliance Checklist
 Does Botium Toys currenly adhrere to this compliance best practice? 
 
-* Payment Card Industry Data Security Standard (PCI DSS)
+# Payment Card Industry Data Security Standard (PCI DSS)
 
 | Yes/ No / ? | Best Practice | Explanation |
 | :---        |    :---:   | :---     |
 | No | Only Authorized users she be able to access to customer's credit card. | at this time all employees in the company have access to the information which is way too many people and has a higher possibility of information getting leaked accidently or intentionally.  |
 | No | Credit card information should stored in a secure location. | It is currenly not encrypted and which violates the law and regulations as well as makes the system way less secure and easier for threat actors to steal the information. |
 | No | Encryption is secured. | No, there is no encryption in place this needs to be changed when dealing with highly sensitive information. | 
+
+
+# General Data Protection Regulation (GDPR)
+  
+| Yes/ No / ? | Best Practice | Explanation |
+| :---        |    :---:   | :---     |
+| No | EU customers are kept secured. | The organization does not apply GDPR practice. Thus, it puts them at risk of being fined by the EU government. |
+| Yes | Privacy policies are maintained properly.| According to the scenario, it has been enforced by the IT Team members and other staff. |
+
+
+# System and Organizations Controls 
+
+| Yes/ No / ? | Best Practice | Explanation |
+| :---        |    :---:   | :---     |
+| No | User access policies are established | Employees have access to internally stored data which means the access policy has not been applied. |
+| Yes | Data integrity is consistent, complete, accurate | Data integrity is in place. | 
+| No | Data is available to authorized users | Currently, all the employees can access all the data. |
+
+
+## Recommendations (optional)
+In this section, provide recommendations, related to controls and/or compliance needs, that your IT manager could communicate to stakeholders to reduce risks to assets and improve Botium Toys’ security posture.
+There are several potential risk issues in the current audit results. I recommend getting fixed as quickly as possible to avoid any potential harm or legal issues in the future. 
+
+1. I recommend is to make sure all data and information is classified and stored properly and then establish a principle of Least Privilege system within the organization as not everyone in the company needs to have access to the Internally stored data or need to be able to access to cardholder data and/or customers PII/SPII information. Only those who have been specifically hired to work with that information should have the privileges needed to do their job and nothing more, to help prevent any exploits threat actors could use to gain access to any private information or accidental leakage of the information as well.
+
+2. Establishing both a stronger Password Policy as the current one is too weak and is an easy target for a Threat Actor to take advantage of but I also recommend establishing a password management system to have more control of which users have access to the systems, It also grants the ability to quickly disable a user if the employee is either fired, quits their job from the company or even goes away on holidays, sealing up any holes quickly so threat actors cannot use the account as a method of accessing the system while the user is away.
+
+3. Establishing an encryption system to better ensure the safety and confidentiality of customers credit card information, as well as install an Intrusion Detection System to help monitor and catch any unauthorized use of the customer's credit cards as well. It will also help the company to be much more compliant to the General Data Protection Regulations act (GDPR) as well to help satisfy PCI DSS regulations.
+
+4. The final change I recommend is improving the way the Legacy systems are being monitored and maintained by establishing a regular schedule to perform the required tasks and interventions as well as making the methods much clearer and easier to follow for anyone who is currently assigned to the role and for future hires, including backing up the systems. There should be 2 different backups in place one scheduled to be done once a week and another back up to be done once a month and kept in a safe and secure storage location so that if a security incident happens once the issues have been resolved, the security teams can recover after the incident by rolling back the company system back to a date prior to the incident to hopefully help mitigate how much damage is done and how much of the companies assests are lost allowing the company to get back up to proper functioning form as quickly as possible.
+
+
+
